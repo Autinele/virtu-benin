@@ -15,3 +15,15 @@ Route::get('/produit', function () {
 Route::get('/panier', function () {
     return view('cart');
 });
+
+Route::get('/detailjeu', function () {
+    return view('detail_jeu');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/demo', function () {
+    return view('demo');
+});
