@@ -20,21 +20,24 @@
     }
 
     header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 1000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 40px;
-      background-color: #2A3D4F;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-    }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background-color: #2A3D4F;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  height: 90px; /* <-- fixe la hauteur */
+}
 
-    .logo img {
-      height: 40px;
-    }
+.logo img {
+  height: 70px; /* taille augmentée */
+  object-fit: contain;
+}
+
 
     nav a {
       color: #fff;
@@ -278,19 +281,20 @@
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <a href="/">
-        <img src="/images/logoo.jpg" alt="Logo WA WO">
-      </a>
-    </div>
-    <nav>
-      <a href="/">Accueil</a>
-      <a href="/produit">Galleries</a>
-      <a href="#">A propos</a>
-      <a href="/contact">Contact</a>
-    </nav>
-  </header>
+    <header>
+        <div class="logo" style="flex: 1;">
+          <a href="/">
+            <img src="/images/logoooo.jpg" alt="Logo WA WO">
+          </a>
+        </div>
+        <nav style="flex: 1; text-align: center;">
+          <a href="/">Accueil</a>
+          <a href="/produit">Galleries</a>
+          <a href="#">A propos</a>
+          <a href="/contact">Contact</a>
+        </nav>
+        <div style="flex: 1;"></div> <!-- Espace vide à droite pour équilibrer -->
+      </header>
 
   <section class="hero">
     <div class="hero-text">

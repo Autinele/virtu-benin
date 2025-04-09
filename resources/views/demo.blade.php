@@ -31,7 +31,7 @@
     const video = document.getElementById('demoVideo');
 
     // Définit la vitesse de lecture à 2x
-    video.playbackRate = 9.0;
+    video.playbackRate = 5.0;
 
     video.onended = function() {
       window.location.href = 'https://beethogedeon.github.io/wawo-puzzle/';

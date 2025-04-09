@@ -381,5 +381,36 @@
     </footer>
 
 </body>
+<script>
+    // Ouvrir le modal
+    function openModal() {
+      document.getElementById("paymentModal").classList.remove("hidden");
+    }
 
+    // Fermer le modal
+    function closeModal() {
+      document.getElementById("paymentModal").classList.add("hidden");
+      document.getElementById("confirmationMessage").classList.add("hidden");
+      document.getElementById("paymentForm").reset();
+    }
+
+    // Soumettre le formulaire
+    function submitForm(event) {
+      event.preventDefault();
+      document.getElementById("confirmationMessage").classList.remove("hidden");
+      setTimeout(() => {
+        closeModal();
+      }, 3000);
+    }
+
+    // Ajouter le curseur pointer + déclencheur sur images et icônes panier
+    document.addEventListener("DOMContentLoaded", () => {
+      const clickableElements = document.querySelectorAll(".add-to-cart, .flex.items-end img");
+
+      clickableElements.forEach(el => {
+        el.style.cursor = "pointer";
+        el.addEventListener("click", openModal);
+      });
+    });
+  </script>
 </html>

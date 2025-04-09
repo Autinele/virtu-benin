@@ -249,7 +249,7 @@
                     <i class="fa fa-shopping-cart text-xs text-black add-to-cart" onclick="addToCart('20.00€')"></i> <!-- Icône de panier -->
                 </div>
                 <div class="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white p-2 rounded">
-                    20.00€ <!-- Prix -->
+                    2000F <!-- Prix -->
                 </div>
             </div>
 
@@ -260,7 +260,7 @@
                     <i class="fa fa-shopping-cart text-xs text-black add-to-cart" onclick="addToCart('40.00€')"></i> <!-- Icône de panier -->
                 </div>
                 <div class="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white p-2 rounded">
-                    40.00€ <!-- Prix -->
+                    4000F <!-- Prix -->
                 </div>
             </div>
 
@@ -272,7 +272,7 @@
                         <i class="fa fa-shopping-cart text-xs text-black add-to-cart" onclick="addToCart('30.00€')"></i> <!-- Icône de panier -->
                     </div>
                     <div class="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white p-2 rounded">
-                        30.00€ <!-- Prix -->
+                        3000F <!-- Prix -->
                     </div>
                 </div>
                 <div class="relative">
@@ -281,7 +281,7 @@
                         <i class="fa fa-shopping-cart text-xs text-black add-to-cart" onclick="addToCart('25.00€')"></i> <!-- Icône de panier -->
                     </div>
                     <div class="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white p-2 rounded">
-                        25.00€ <!-- Prix -->
+                        2500F <!-- Prix -->
                     </div>
                 </div>
                 <div class="relative">
@@ -290,7 +290,7 @@
                         <i class="fa fa-shopping-cart text-xs text-black add-to-cart" onclick="addToCart('15.00€')"></i> <!-- Icône de panier -->
                     </div>
                     <div class="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white p-2 rounded">
-                        15.00€ <!-- Prix -->
+                        1500F <!-- Prix -->
                     </div>
                 </div>
             </div>
