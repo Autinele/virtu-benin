@@ -9,6 +9,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
     <style>
+        nav a.active {
+      font-weight: bold;
+    }
         body {
             font-size: 0.95rem;
             /* Police légèrement réduite */
@@ -60,10 +63,10 @@
         <!-- Header -->
         <header class="fixed top-0 left-0 w-full z-20 flex justify-between items-center px-16 py-6 text-white bg-[#0f172a] bg-opacity-95 backdrop-blur-lg shadow-lg" style="height: 70px;">
             <a href="/">
-                <img src="/images/logoooo.jpg" alt="Logo WA WO" style="height: 80px; object-fit: contain;">
+                <img src="/images/Wawo logo secondary.png" alt="Logo WA WO" style="height: 50px; object-fit: contain;">
             </a>
             <nav class="flex space-x-12">
-                <a href="/" class="text-[#c49b42] hover:text-white transition font-semibold">Accueil</a>
+                <a href="/" class=" active [#c49b42] hover:text-white transition font-semibold">Accueil</a>
                 <a href="/produit" class="text-[#c49b42] hover:text-white transition font-semibold">Galleries</a>
                 <a href="#" class="text-[#c49b42] hover:text-white transition font-semibold">À propos</a>
                 <a href="/contact" class="text-[#c49b42] hover:text-white transition font-semibold">Contact</a>

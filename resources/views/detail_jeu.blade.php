@@ -34,7 +34,7 @@
 }
 
 .logo img {
-  height: 70px; /* taille augmentée */
+  height: 50px; /* taille augmentée */
   object-fit: contain;
 }
 
@@ -284,7 +284,7 @@
     <header>
         <div class="logo" style="flex: 1;">
           <a href="/">
-            <img src="/images/logoooo.jpg" alt="Logo WA WO">
+            <img src="/images/Wawo logo secondary.png" alt="Logo WA WO">
           </a>
         </div>
         <nav style="flex: 1; text-align: center;">

@@ -254,7 +254,7 @@
   <header>
     <div class="logo">
         <a href="/">
-        <img src="/images/logoooo.jpg" alt="Logo WA WO" style="height: 70px;">
+        <img src="/images/Wawo logo secondary.png" alt="Logo WA WO" style="height: 50px;">
       </div>
     </a>
     <nav>

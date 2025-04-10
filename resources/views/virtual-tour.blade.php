@@ -163,7 +163,7 @@
   <!-- Header -->
   <header class="fixed top-0 left-0 w-full z-20 flex justify-between items-center px-16 py-6 text-white">
     <a href="/">
-      <img src="/images/logoooo.jpg" alt="Logo WA WO" style="height: 80px; object-fit: contain;">
+      <img src="/images/Wawo logo secondary.png" alt="Logo WA WO" style="height: 50px; object-fit: contain;">
     </a>
     <nav class="flex space-x-12">
       <a href="/" class="hover:text-white">Accueil</a>
